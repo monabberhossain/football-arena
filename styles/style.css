@@ -18,6 +18,8 @@ main{
     margin: 0 auto 130px auto;
 }
 
+/* Header Area Styles */
+
 .banner-area{
     display: flex;
     align-items: center;
@@ -86,6 +88,7 @@ button:hover{
     transform: scale(1.2);
 }
 
+/* Main Area Styles: Aside */
 .link-menu{
     display: flex;
     flex-direction: column;
@@ -110,6 +113,7 @@ button:hover{
     background-color: #F0725C;
 }
 
+/* Main Area Styles: Blog Part */
 .blog-area{
     margin-left: 20px;
     display: flex;
@@ -172,6 +176,8 @@ button:hover{
     display: none;
 }
 
+/* Footer Area Styles */
+
 footer{
     width: 100%;
     margin: 0 auto;
@@ -224,6 +230,7 @@ footer{
     color: #F0725C;
 }
 
+/* Matches.html: Fixtures Area Styles */
 .fixture-area{
     margin-left: 20px;
 }
