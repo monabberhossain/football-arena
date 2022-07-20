@@ -230,7 +230,7 @@ footer{
     color: #F0725C;
 }
 
-/* Matches.html: Fixtures Area Styles */
+/* Matches.html: Fixtures Area */
 .fixture-area{
     margin-left: 20px;
 }
@@ -309,6 +309,11 @@ footer{
     .banner-info{
         margin: 50px 10px;
         text-align: center;
+    }    
+    .banner-info h1{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 56px;
     }
     .half-width img{
         width: 100%;
@@ -327,6 +332,10 @@ footer{
         row-gap: 20px;
         column-gap: 20px;
         padding: 0 20px;
+    }
+    .fixtures {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 20px;
     }
     footer{
         max-width: 100%;
@@ -358,8 +367,6 @@ footer{
         width: 100%;
         margin-bottom: 50px;
     }
-    .banner-area{
-    }
     .banner-info{
         margin: 50px 5px 50px 35px;
     }
@@ -367,9 +374,6 @@ footer{
         font-weight: 600;
         font-size: 40px;
         line-height: 56px;
-    }
-    .half-width img{
-        
     }
     .banner-img{
         padding: 15px 30px 0 10px;
@@ -379,7 +383,7 @@ footer{
         margin-bottom: 50px;
     }
     .link-menu{
-        width: auto;
+        width: 100%;
         height: auto;
         flex-direction: column;
         align-items: center;
@@ -413,8 +417,9 @@ footer{
     .menu-button:hover{
         background-color: #F0725C;
     }
-    footer{
-        
+    .fixtures {
+        grid-template-columns: repeat(2, 1fr);
+        padding-right: 20px;
     }
     .footer-area{
         padding: 50px;
